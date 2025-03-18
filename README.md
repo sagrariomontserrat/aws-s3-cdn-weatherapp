@@ -48,16 +48,16 @@ You’ve created a bucket in Amazon S3
 ## 🔒 Create ACM (Certificate Manager)
 1.	Go to the AWS Management Console and search for **Certificate Manager** in the search bar. 
 2.	Click on **Certificate Manager.**
-3.	In the ACM dashboard, click on **Request a certificate. **
+3.	In the ACM dashboard, click on **Request a certificate.**
 4.	Choose **Request a public certificate** and then click on **Request a certificate.**
 5.	In the **Domain name** field, add your domain name.
 6.	Choose DNS validation as the method for validating your domain ownership. This method will create DNS records that you’ll need to add to your DNS provider (in my case this will be done in Cloudflare).
 ![Picture10](https://github.com/user-attachments/assets/c34d312f-8fa0-49b2-8104-91cc3f1779a8)
 
 7. Choose **Request.**
-8. ACM will generate CNAME validation records. Copy these records to add them in Cloudflare.
+8. ACM will generate **CNAME validation records.** Copy these records to add them in Cloudflare.
 ![Picture11](https://github.com/user-attachments/assets/0235d194-c5be-4ee2-b595-6e1e7db6211c)
-9. Go to Cloudflare and log in to your account.
+9. Go to Cloudflare and **log in** to your account.
 -	Choose the domain you want to configure from your Cloudflare dashboard.
 -	Click on the **DNS** tab to view and manage your domain’s DNS settings.
 -	Click on **Add Record.** 
@@ -65,7 +65,7 @@ You’ve created a bucket in Amazon S3
 -	In the Name field, enter the name from ACM's CNAME record.
 -	In the Content field, enter the corresponding CNAME value from ACM. 
 -	Set **TTL** to Auto. 
-- Save the record.
+- **Save the record.**
 ![Picture12](https://github.com/user-attachments/assets/a03b6108-ed1d-40fc-94db-f2fdfbe42894)
 10.	Once validated, the status in ACM will change from Pending validation to **Issued.**
 ![Picture13](https://github.com/user-attachments/assets/d1a30acd-2f78-4f60-bd2f-1c8db5e39b83)
