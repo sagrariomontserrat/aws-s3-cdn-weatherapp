@@ -1,6 +1,6 @@
 # Weather App on AWS S3, ACM and CloudFront.
 
-## 🚀 Create your first bucket S3.
+## 🚀 Create your first bucket S3
 1.	Sign in to the AWS Management Console and open the Amazon console.
 2.	The starting point of this section is the Amazon Web Services Management Console, as shown below:
 ![Picture1](https://github.com/user-attachments/assets/074fe6e0-c886-464b-8585-52be0f0dbbe8)
@@ -70,7 +70,7 @@ You’ve created a bucket in Amazon S3
 10.	Once validated, the status in ACM will change from Pending validation to **Issued.**
 ![Picture13](https://github.com/user-attachments/assets/d1a30acd-2f78-4f60-bd2f-1c8db5e39b83)
 
-## 📡 CloudFront Configuration.
+## 📡 CloudFront Configuration
 1.	In the AWS Management console, search for **CloudFront** and open it.
 2.	Choose on **Create Distribution.**
 3.	Choose the S3 bucket where your application is hosted.
@@ -81,7 +81,7 @@ You’ve created a bucket in Amazon S3
 7.	Choose **Create distribution**.
 8.	Go to the **CloudFront** dashboard and find your distribution.
 9.	Copy the **CloudFront Distribution Domain name.**
-## 🌐 Cloudflare Configuration.
+## 🌐 Cloudflare Configuration
 1.	Go to Cloudflare DNS settings.
 2.	In Cloudflare go to the **DNS** tab for your domain.
 3.	Click on **Add record.**
